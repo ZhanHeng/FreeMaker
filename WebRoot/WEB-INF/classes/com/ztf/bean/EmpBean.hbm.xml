@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.ztf.bean">
+	<class name="EmpBean" table="emp">
+		
+		<id name="empno">
+			<column name="empno"></column>
+		</id>
+		
+		<property name="ename">
+			<column name="ename"></column>
+		</property>
+		<property name="job">
+			<column name="job"></column>
+		</property>
+		<property name="sal">
+			<column name="sal"></column>
+		</property>
+	
+	</class>
+	
+</hibernate-mapping>
